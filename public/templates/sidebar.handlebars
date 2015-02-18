@@ -1,0 +1,16 @@
+<div class="context-container">
+  {{#article-text}}
+    <p><em>{{text}}</em></p>
+  {{/article-text}}
+  {{#wikipedia}}
+    <h3>{{title}}</h3>
+    <div class="context-img">
+      <img src="{{img}}" class="img-thumbnail">
+    </div>
+    <p>{{summary}}</p>
+  {{/wikipedia}}
+  {{#twitter}}
+    <h3>{{tweet}}</h3>
+    <h4>{{user}}</h4>
+  {{/twitter}}
+</div>

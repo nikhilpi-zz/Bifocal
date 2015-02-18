@@ -1,6 +1,48 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+.context {
+  background-color: #aaaaaa;
+  color: white;
+  padding: 3px;
+  border-radius: 3px; }
 
-a {
-  color: #00B7FF; }
+.context-sidebar {
+  -webkit-transition: right 1s;
+  /* For Safari 3.1 to 6.0 */
+  transition: right 1s;
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  right: -340px;
+  background-color: #aaaaaa;
+  z-index: 100; }
+
+.context-img {
+  width: 250px; }
+
+.context-peak {
+  -webkit-transition: right 500ms;
+  /* For Safari 3.1 to 6.0 */
+  transition: right 500ms;
+  right: -250px; }
+
+.context-show {
+  -webkit-transition: right 1s;
+  /* For Safari 3.1 to 6.0 */
+  transition: right 1s;
+  right: 0; }
+
+.context-container {
+  background-color: #eeeeee;
+  margin-left: 10px;
+  height: 100%;
+  position: absolute;
+  display: block;
+  padding: 10px;
+  z-index: 200;
+  overflow: scroll; }
+
+.context-side-clicker {
+  width: 10px;
+  height: 100%;
+  z-index: 150;
+  color: transparent;
+  position: fixed; }
