@@ -4,6 +4,19 @@ $(document).ready( function() {
   var templates;
   var keywordData;
 
+  function init(keyword){
+    //get json
+    $.getJSON("/data", function(data) {
+      keywordData = data;
+      console.log(data);
+    });
+
+    //get templates
+    getTemplateAjax('templates/sidebar.handlebars', function(res){
+      templates = res;
+    });
+  };
+
   function getTemplateAjax(path, cb) {
     var source;
     var template;
@@ -18,15 +31,6 @@ $(document).ready( function() {
           }
     });
   };
-
-  $.getJSON("/data", function(data) {
-    keywordData = data;
-    console.log(data);
-  });
-
-  getTemplateAjax('templates/sidebar.handlebars', function(res){
-    templates = res;
-  });
 
   var open = false;
   var peek = false;
@@ -79,7 +83,5 @@ $(document).ready( function() {
     var sideBarhtml  = templates(sideBarData);
     $('#context-body').append(sideBarhtml)
   }
-
-
 
 });   
