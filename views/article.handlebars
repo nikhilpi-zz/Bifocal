@@ -1,17 +1,23 @@
+<script>
+  $.getJSON("/data", function(data) {
+        Sidebar(data);
+      });
+</script>
+
 <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-           <img  class="img-rounded img-responsive" src="{{headerImg}}" />
-        </div>    
-      </div> 
-      <div class="row">
-        <div class="col-md-8">
-          <h2>{{title}}</h2>
-          <h6>{{description}}</h6>
-          <p>by {{#authors}}{{name}}{{/authors}}</p>
-          <div id="content">
-            {{{content}}}
-          </div>
-        </div>
+  <div class="row">
+    <div class="col-md-12">
+       <img  class="img-rounded img-responsive" src="{{headerImg}}" />
+    </div>    
+  </div> 
+  <div class="row">
+    <div class="col-md-8">
+      <h2>{{title}}</h2>
+      <h6>{{description}}</h6>
+      <p>by {{#authors}}{{name}}{{/authors}}</p>
+      <div id="content">
+        {{{content}}}
       </div>
     </div>
+  </div>
+</div>

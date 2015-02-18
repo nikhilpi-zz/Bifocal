@@ -50,7 +50,7 @@ function getArticle(link,cb){
 
 var yvesContext = {
   YvesBehar: {
-    keyVariants: ["Yves Behar", "Behar", "Behar's", "Yves"],
+    keyVariants: ["Yves Behar", "Yves Behar's", "Behar", "Behar's", "Yves"],
     articleText : {
       text: "Renowned industrial designer. Behar has become one of the leading industrial designers of his generation, creating iconic objects for Jawbone, Herman Miller, General Electric, and Puma, among many others. ‘ He’s broadly interested in \"moving design closer to the body,\" through objects that adapt to you over time. \"Our principal role as designers is to accelerate new ideas, and the adoption of new ideas,\"."
     },
@@ -60,7 +60,7 @@ var yvesContext = {
       img: "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Yves_Behar.jpg/440px-Yves_Behar.jpg"
     }
   },
-  BlueFocus : {
+  BlueFocus: {
     keyVariants: ["BlueFocus"],
     articleText : {
       text: "Paid a reported $46.7 million for its (Fuseproject) stake, and plans to expand Behar’s model of \"venture design\" — forming long-term partnerships with startups in exchange for equity in the companies — around the world"
