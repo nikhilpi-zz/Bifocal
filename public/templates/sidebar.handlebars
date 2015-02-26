@@ -14,8 +14,8 @@
   {{/quote}}
   {{#wikipedia}}
     <div class="widget">
-      <h6>Wikipedia</h6>
-      <img src="{{img}}" class="img-responsive img-thumbnail">
+      <a href={{source}}><h6>Wikipedia</h6></a>
+      {{#img}}<img src="{{this}}" class="img-responsive img-thumbnail">{{/img}}
       <p>{{summary}}</p>
     </div>  
   {{/wikipedia}}

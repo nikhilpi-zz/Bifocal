@@ -58,7 +58,8 @@ var yvesContext = {
     wikipedia: {
       title: "Yves Behar",
       summary: "Yves Béhar (born 1967) is a Swiss designer, entrepreneur, and sustainability advocate.He is the founder and principal designer of Fuseproject, an award-winning industrial design and brand development firm. Béhar is also Chief Creative Officer of the wearable technology company Jawbone, and Co-founder and Chief Creative Officer of August, a Smart Lock maker.",
-      img: "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Yves_Behar.jpg/440px-Yves_Behar.jpg"
+      img: "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Yves_Behar.jpg/440px-Yves_Behar.jpg",
+      source: "http://en.wikipedia.org/wiki/Yves_B%C3%A9har"
     }
   },
   BlueFocus: {
@@ -85,6 +86,15 @@ var yvesContext = {
           src:"http://rack.1.mshcdn.com/media/ZgkyMDEzLzA1LzMwL2E2L2ZhbnR2My5mOGVkYy5qcGcKcAl0aHVtYgkxMjAweDk2MDA-/9618a4ef/4a3/fan-tv-3.jpg"
         }
       ]
+    }
+  },
+  CannesLion:{
+    title: "Cannes Lion",
+    keyVariants: ["Cannes Lion", "Cannes"],
+    wikipedia: {
+      title: "Cannes Lion",
+      summary: "Cannes Lions Festival of International Creativity, an annual festival for advertisers.",
+      source: "http://en.wikipedia.org/wiki/Cannes_Lions_International_Festival_of_Creativity"
     }
   }
 };
