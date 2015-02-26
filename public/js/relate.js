@@ -2,6 +2,8 @@
   this.Sidebar = function(data){
     $('body').prepend('<div class="context-sidebar"><div class="context-side-clicker"></div><div id="context-body"></div></div>')
     var templates;
+
+    $('.carousel').carousel()
   
     //Get templates   
     $.ajax({
@@ -25,7 +27,7 @@
         regex = regex.substring(0, regex.length - 1);
         var re = new RegExp(regex,'g');
         $('#content').html($('#content').html().replace(re, function(s){
-          return '<span class="context" keyword="'+ Object.keys(data)[keyI] +'">' + s + "</span>";
+          return '<a class="context" keyword="'+ Object.keys(data)[keyI] +'">' + s + "</a>";
         }));
       }
     }
@@ -42,7 +44,7 @@
     var peek = false;
     var currentKeyword = '';
     
-    $('span.context').click(function(){
+    $('a.context').click(function(){
       var keyword = $(this).attr("keyword");
       if (open && currentKeyword !== keyword){
         renderKeyword(keyword);
@@ -58,7 +60,7 @@
       }
     });
 
-    $('span.context').hover(function(){
+    $('a.context').hover(function(){
       var keyword = $(this).attr("keyword");
       if (open && currentKeyword !== keyword){
         // renderKeyword(keyword);

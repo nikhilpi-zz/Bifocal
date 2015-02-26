@@ -1,8 +1,6 @@
 .context{
-  background-color: #aaaaaa;
-  color: white;
-  padding: 3px;
-  border-radius: 3px;
+  border-bottom: 1px dotted #34495E;
+  display: inline;
 }
 
 .context-sidebar{
@@ -14,10 +12,6 @@
   right: -340px;
   background-color: #aaaaaa;
   z-index: 100;
-}
-
-.context-img{
-  width: 250px;
 }
 
 .context-peak{
@@ -41,6 +35,15 @@
   padding: 10px;
   z-index: 200;
   overflow: scroll;
+
+  h3{
+      margin-top: 15px;
+  }
+
+  .widget{
+    border-bottom: 1px #34495E solid;
+    
+  }
 }
 
 .context-side-clicker{
@@ -50,3 +53,5 @@
   color: transparent;
   position: fixed;
 }
+
+
