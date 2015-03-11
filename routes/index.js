@@ -76,6 +76,9 @@ var yvesContext = {
       text: "It’s a glossy, white, touch-enabled pebble that fits neatly in the hand. It snaps, via magnet, onto the accompanying set-top box, and the shape of the remote mirrors that of the box.",
       source: "https://www.fan.tv/",
       name: "Fan.tv"
+    },
+    images:{
+      img: ["http://rack.0.mshcdn.com/media/ZgkyMDEzLzA1LzMwLzgxL2ZhbnR2Mi41YjQxZS5qcGcKcAl0aHVtYgkxMjAweDk2MDA-/4fa55591/602/fan-tv-2.jpg", "http://rack.1.mshcdn.com/media/ZgkyMDEzLzA1LzMwL2E2L2ZhbnR2My5mOGVkYy5qcGcKcAl0aHVtYgkxMjAweDk2MDA-/9618a4ef/4a3/fan-tv-3.jpg"]
     }
   },
   CannesLion:{
@@ -103,6 +106,9 @@ var yvesContext = {
       title: "Jambox",
       summary: "speakers designed by Behar in 2010, launched a multibillion-dollar wireless-speaker market",
       source: "http://en.wikipedia.org/wiki/Jawbone_%28company%29#JAMBOX"
+    },
+    images:{
+      img: ["http://wpuploads.appadvice.com/wp-content/uploads/2011/07/Aliph-Jawbone-Jambox-in-Color.jpg", "http://b.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2013/09/3016780-poster-1280-jambox3.jpg"]
     }
   },
   Fuseproject:{
@@ -119,6 +125,7 @@ var yvesContext = {
     keyVariants:["Up"],
     wikipedia: {
       title: "Up",
+      img: "http://www.tekshanghai.com/wp-content/uploads/2013/04/jawbone-up-gallery-1.jpg",
       summary: "Fitness tracker wristband created by Yves Behar. One of the first fitness trackers on the market.",
       source: "http://en.wikipedia.org/wiki/Jawbone_%28company%29#UP_design"
     }
@@ -137,6 +144,9 @@ var yvesContext = {
     keyVariants:["Sabrina Buell", "Sabrina", "Buell"],
     articleText: {
       text: "Behar’s longtime girlfriend and art advisor."
+    },
+    images:{
+      img: ["http://hauteliving.com/wp-content/uploads/2011/09/Sabrina-Buell.jpg"]
     }
   },
   HenryBehar:{
@@ -165,7 +175,7 @@ var yvesContext = {
       source: "http://en.wikipedia.org/wiki/Art_Center_College_of_Design"
     }
   },
-  
+
 
 };
 
