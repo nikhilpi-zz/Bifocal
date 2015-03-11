@@ -182,14 +182,14 @@ var yvesContext = {
       text: "who hired Fuseproject to design the Fan TV set-top box. \"I remember Yves’ team looking at him and saying, ‘Holy shit!’\" BianRosa says. \"Even my own team looked at him thinking, ‘What?!’ Because it was crazy for both our timeline and Fuseproject’s timeline. And yet we said fuck it, we’re doing it from scratch. If we’re trying to invent the remote of the future, we’re not going to compromise.\""
     }
   },
-  JasonJohnson{
+  JasonJohnson:{
     title: "Jason Johnson",
     keyVariants:["Jason Johnson", "Jason", "Johnson"],
     articleText: {
       text: "co-founder at August"
     }
   },
-  August{
+  August:{
     title: "August",
     keyVariants:["August"],
     articleText: {
@@ -204,6 +204,17 @@ var yvesContext = {
       img: ["http://static.dezeen.com/uploads/2013/05/dezeen_August-Smart-Lock-by-Yves-Behar_1sq.jpg","http://www.ageekyworld.com/wp-content/uploads/2014/10/august-lock4.jpg"]
     }
   },
+  HosainRahman:{
+    title: "Hosain Rahman",
+    keyVariants:["Hosain Rahman", "Hosain", "Rahman"],
+    articleText: {
+      text: "the founder of Jawbone. \"We have a great relationship, but we can fight. I used to tease people that if Yves doesn’t threaten to quit on a project, that means we’re not doing our best work.\""
+    },
+    images:{
+      img:["http://specials-images.forbesimg.com/imageserve/03z04Hj5tzfsO/0x600.jpg?fit=scale&background=000000"]
+    }
+  },
+
 
 
 
