@@ -175,6 +175,36 @@ var yvesContext = {
       source: "http://en.wikipedia.org/wiki/Art_Center_College_of_Design"
     }
   },
+  GillesBianRosa: {
+    title: "Gilles BianRosa",
+    keyVariants:["Gilles BianRosa", "Gilles", "BianRosa"],
+    articleText: {
+      text: "who hired Fuseproject to design the Fan TV set-top box. \"I remember Yves’ team looking at him and saying, ‘Holy shit!’\" BianRosa says. \"Even my own team looked at him thinking, ‘What?!’ Because it was crazy for both our timeline and Fuseproject’s timeline. And yet we said fuck it, we’re doing it from scratch. If we’re trying to invent the remote of the future, we’re not going to compromise.\""
+    }
+  },
+  JasonJohnson{
+    title: "Jason Johnson",
+    keyVariants:["Jason Johnson", "Jason", "Johnson"],
+    articleText: {
+      text: "co-founder at August"
+    }
+  },
+  August{
+    title: "August",
+    keyVariants:["August"],
+    articleText: {
+      text: "home automation startup"
+    },
+    quote: {
+      text: "The August Smart Lock provides intelligent, secure access to your home. Now you can control who can enter and who can’t—without the need for keys or codes. And you can do it all from your smartphone.",
+      source: "http://august.com/",
+      name: "August"
+    },
+    images:{
+      img: ["http://static.dezeen.com/uploads/2013/05/dezeen_August-Smart-Lock-by-Yves-Behar_1sq.jpg","http://www.ageekyworld.com/wp-content/uploads/2014/10/august-lock4.jpg"]
+    }
+  },
+
 
 
 };
