@@ -96,7 +96,72 @@ var yvesContext = {
       summary: "Cannes Lions Festival of International Creativity, an annual festival for advertisers.",
       source: "http://en.wikipedia.org/wiki/Cannes_Lions_International_Festival_of_Creativity"
     }
-  }
+  },
+  HermanMiller:{
+    title: "Herman Miller",
+    keyVariants: ["Herman Miller", "Herman", "Miller"],
+    wikipedia: {
+      title: "Herman Miller",
+      summary: "Herman Miller, Inc., based in Zeeland, Michigan, is a major American manufacturer of office furniture, equipment and home furnishings. It is notable as one of the first companies to produce modern furniture and, under the guidance of Design Director George Nelson, is likely the most prolific and influential producer of furniture of the modernist style.",
+      source: "http://en.wikipedia.org/wiki/Herman_Miller_%28manufacturer%29"
+    }
+  },
+  Jambox:{
+    title: "Jambox",
+    keyVariants:["Jambox"],
+    wikipedia: {
+      title: "Jambox",
+      summary: "speakers designed by Behar in 2010, launched a multibillion-dollar wireless-speaker market",
+      source: "http://en.wikipedia.org/wiki/Jawbone_%28company%29#JAMBOX"
+    }
+  },
+  Fuseproject:{
+    title: "Fuseproject",
+    keyVariants:["Fuseproject"],
+    wikipedia: {
+      title: "Fuseproject",
+      summary: "Behar’s design firm, which he is selling 75% of to a chinese conglomerate called BlueFocus for $46 million",
+      source: "http://en.wikipedia.org/wiki/Fuseproject"
+    }
+  },
+  Up:{
+    title: "Up",
+    keyVariants:["Up"],
+    wikipedia: {
+      title: "Up",
+      summary: "Fitness tracker wristband created by Yves Behar. One of the first fitness trackers on the market.",
+      source: "http://en.wikipedia.org/wiki/Jawbone_%28company%29#UP_design"
+    }
+  },
+  ArtBasel:{
+    title: "Art Basel (Basel)",
+    keyVariants:["Art Basel", "Basel"],
+    articleText: {
+      text: "A Swiss art fair where Yves behar is giving a presentation."
+    }
+  },
+  SabrinaBuell:{
+    title: "Sabrina Buell",
+    keyVariants:["Sabrina Buell", "Sabrina", "Buell"],
+    articleText: {
+      text: "Behar’s longtime girlfriend and art advisor."
+    }
+  },
+  HenryBehar:{
+    title: "Henry Behar",
+    keyVariants:["Henry Behar", "Henry"],
+    articleText: {
+      text: "Yves’ father, who comes from a family of Sephardic Jews who were forced out of the Jewish ghetto in Venice and settled in Turkey."
+    }
+  },
+  ChristineBehar:{
+    title: "Christine Behar",
+    keyVariants:["Christine Behar", "Christine"],
+    articleText: {
+      text: "Yves’ mother, grew up in East Germany, and at the age of 17 escaped into West Berlin via an underground tunnel."
+    }
+  },
+
 };
 
 

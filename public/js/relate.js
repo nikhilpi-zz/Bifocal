@@ -22,7 +22,7 @@
         });
         var regex = '';
         for(var vI = 0; vI < keyword.keyVariants.length; vI++){
-          regex += keyword.keyVariants[vI]  + '|';
+          regex += keyword.keyVariants[vI]  + '\\b|';
         }
         regex = regex.substring(0, regex.length - 1);
         var re = new RegExp(regex,'g');
