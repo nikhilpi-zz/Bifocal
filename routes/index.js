@@ -214,7 +214,44 @@ var yvesContext = {
       img:["http://specials-images.forbesimg.com/imageserve/03z04Hj5tzfsO/0x600.jpg?fit=scale&background=000000"]
     }
   },
-
+  LucasDietrich:{
+    title: "Lucas Dietrich",
+    keyVariants:["Lucas Dietrich", "Lucas", "Dietrich"],
+    articleText: {
+      text: "an American who works at the art-focused publishing house Thames and Hudson, has been working with Behar on a retrospective of his design work that will showcase its impact around the world."
+    }
+  },
+  NadjaSwarovski:{
+    title: "Nadja Swarovski",
+    keyVariants:["Nadja Swarovski", "Nadja", "Swarovski"],
+    wikipedia: {
+      title: "Nadja Swarovski",
+      summary: "Nadja Swarovski (born 1970) joined the Swarovski family firm in 1995, 100 years after it was founded by her great-great-grandfather Daniel Swarovski in 1895 in Wattens, Austria. She is the first female Member of the Executive Board at Swarovski Crystal Business.",
+      source: "http://en.wikipedia.org/wiki/Nadja_Swarovski"
+    },
+    images:{
+      img:["http://www.professionaljeweller.com/pictures/gallery/Swarovski/nadja%20swarovski%20green%20dress.jpg"]
+    }
+  },
+  IreneSchiebel:{
+    title: "Irene Schiebel",
+    keyVariants:["Irene Schiebel", "Irene", "Schiebel"],
+    articleText: {
+      text: "She has been summoned in the hopes that her family’s drone business, which is based in Austria, can supply vehicles for Behar’s aerial ballet and it’s immediately clear that Schiebel’s product is both too large and too expensive for their needs"
+    }
+  },
+  CharlesandRayEames:{
+    title: "Charles and Ray Eames",
+    keyVariants:["Charles and Ray Eames", "Charles Eames", "Ray Eames", "Eames"],
+    wikipedia: {
+      title: "Charles and Ray Eames",
+      summary: "Charles Ormond Eames, Jr (1907–1978) and Bernice Alexandra \"Ray\" Eames (1912–1988) were American designers who worked in and made major contributions to modern architecture and furniture. They also worked in the fields of industrial and graphic design, fine art and film.",
+      source: "http://en.wikipedia.org/wiki/Charles_and_Ray_Eames"
+    },
+    images:{
+      img:["http://www.vitra.com/en-au/_storage/asset/41143/storage/v_smallbleed_600x/file/14260269/Charles%20&%20Ray%20Eames.jpg","http://www.hermanmiller.com/content/dam/hermanmiller/page_assets/products/Eames_Molded_Plywood_Chairs/hero_eames_molded_plywood_1.jpg"]
+    }
+  },
 
 
 
