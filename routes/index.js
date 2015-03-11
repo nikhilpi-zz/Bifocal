@@ -76,16 +76,6 @@ var yvesContext = {
       text: "It’s a glossy, white, touch-enabled pebble that fits neatly in the hand. It snaps, via magnet, onto the accompanying set-top box, and the shape of the remote mirrors that of the box.",
       source: "https://www.fan.tv/",
       name: "Fan.tv"
-    },
-    gallery:{
-      images:[
-        {
-          src:"http://rack.3.mshcdn.com/media/ZgkyMDEzLzA1LzMxL2UxL2ZhbnR2dGh1bWIuNmI5NDUuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/5d2fc88b/2f7/fan-tv-thumb.jpg"
-        },
-        {
-          src:"http://rack.1.mshcdn.com/media/ZgkyMDEzLzA1LzMwL2E2L2ZhbnR2My5mOGVkYy5qcGcKcAl0aHVtYgkxMjAweDk2MDA-/9618a4ef/4a3/fan-tv-3.jpg"
-        }
-      ]
     }
   },
   CannesLion:{
@@ -136,8 +126,10 @@ var yvesContext = {
   ArtBasel:{
     title: "Art Basel (Basel)",
     keyVariants:["Art Basel", "Basel"],
-    articleText: {
-      text: "A Swiss art fair where Yves behar is giving a presentation."
+    quote: {
+      text: "The world's premier international art show for Modern and contemporary works, Art Basel features nearly 300 leading galleries.",
+      source: "https://www.artbasel.com/",
+      name: "Art Basel"
     }
   },
   SabrinaBuell:{
@@ -161,6 +153,19 @@ var yvesContext = {
       text: "Yves’ mother, grew up in East Germany, and at the age of 17 escaped into West Berlin via an underground tunnel."
     }
   },
+  ArtCenterCollegeofDesign: {
+    title: "Art Center College of Design",
+    keyVariants:["Art Center College of Design", "Art Center"],
+    articleText: {
+      text: "Yves enrolled at the Swiss branch of the Art Center College of Design"
+    },
+    wikipedia: {
+      title: "Art Center College of Design",
+      summary: "Art Center College of Design (Art Center) is a private college located in Pasadena, California.",
+      source: "http://en.wikipedia.org/wiki/Art_Center_College_of_Design"
+    }
+  },
+  
 
 };
 
