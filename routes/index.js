@@ -2,22 +2,22 @@ var express = require('express');
 var router = express.Router();
 var EMBEDLY_KEY = '12eea0a7d9e140b1bc526f1b08eca80c';
 
-var embedly = require('embedly'),
-    util = require('util');
+var embedly = require('embedly'), util = require('util');
 
-/* GET home page. */
 
+//Get Homepage
 router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
+//Get article
 router.get('/yves', function(req, res) {
   getArticle('http://www.theverge.com/2014/8/6/5930539/the-makers-mark-yves-behar-fuseproject-profile', function(data){
-    console.log(data);
     res.render('article', data);
   });
 });
 
+//Get JSON data
 router.get('/data', function(req, res) {
   res.setHeader('Content-Type', 'application/json');
   res.end(JSON.stringify(yvesContext));
@@ -25,6 +25,7 @@ router.get('/data', function(req, res) {
 
 module.exports = router;
 
+//Scrape article using embdly API
 function getArticle(link,cb){
   new embedly({key: EMBEDLY_KEY}, function(err, api) {
     if (!!err) {
@@ -48,6 +49,7 @@ function getArticle(link,cb){
   });
 };
 
+//Context data
 var yvesContext = {
   YvesBehar: {
     title: "Yves Behar",
@@ -252,8 +254,6 @@ var yvesContext = {
       img:["http://www.vitra.com/en-au/_storage/asset/41143/storage/v_smallbleed_600x/file/14260269/Charles%20&%20Ray%20Eames.jpg","http://www.hermanmiller.com/content/dam/hermanmiller/page_assets/products/Eames_Molded_Plywood_Chairs/hero_eames_molded_plywood_1.jpg"]
     }
   },
-
-
 
 };
 

@@ -1,9 +1,9 @@
 (function() {
   this.Sidebar = function(data){
+
+    //Insert sidebar into body
     $('body').prepend('<div class="context-sidebar"><div class="context-side-clicker"></div><div id="context-body"></div></div>')
     var templates;
-
-    $('.carousel').carousel()
   
     //Get templates   
     $.ajax({
@@ -14,6 +14,7 @@
         }
     });
 
+    //Tag keywords in article
     function tagKeywords(data){
       for(var keyI=0; keyI < Object.keys(data).length; keyI++){
         var keyword = data[Object.keys(data)[keyI]];
@@ -31,8 +32,10 @@
         }));
       }
     }
+
     tagKeywords(data);
 
+    //Render keyword context into sidebar
     function renderKeyword(keyword){
       $('#context-body').empty();
       var sideBarData = data[keyword];
@@ -44,6 +47,7 @@
     var peek = false;
     var currentKeyword = '';
     
+    //Open up side bar full on keyowrd click
     $('a.context').click(function(){
       var keyword = $(this).attr("keyword");
       if (open && currentKeyword !== keyword){
@@ -60,12 +64,10 @@
       }
     });
 
+    //Peek sidebar on keyword hover
     $('a.context').hover(function(){
       var keyword = $(this).attr("keyword");
-      if (open && currentKeyword !== keyword){
-        // renderKeyword(keyword);
-        // currentKeyword = keyword;
-      } else if (open && currentKeyword === keyword) {
+      if (open && currentKeyword === keyword) {
         $('.context-sidebar').toggleClass('context-peak');
       } else if (!open){
         $('.context-sidebar').toggleClass('context-peak');
@@ -74,6 +76,7 @@
       }
     });
 
+    //Open and close side bar when bar is clicked
     $('.context-side-clicker').click(function(){
       if (open){
         open = false;
